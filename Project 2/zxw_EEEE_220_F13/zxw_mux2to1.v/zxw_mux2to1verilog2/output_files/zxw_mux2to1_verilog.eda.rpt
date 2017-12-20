@@ -1,0 +1,92 @@
+EDA Netlist Writer report for zxw_mux2to1_verilog
+Fri Sep 13 18:33:33 2013
+Quartus II 32-bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. Simulation Settings
+  4. Simulation Generated Files
+  5. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------+
+; EDA Netlist Writer Summary                                        ;
++---------------------------+---------------------------------------+
+; EDA Netlist Writer Status ; Successful - Fri Sep 13 18:33:33 2013 ;
+; Revision Name             ; zxw_mux2to1_verilog                   ;
+; Top-level Entity Name     ; zxw_mux2to1_verilog                   ;
+; Family                    ; Cyclone IV E                          ;
+; Simulation Files Creation ; Successful                            ;
++---------------------------+---------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                                           ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Option                                                                                            ; Setting                   ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Tool Name                                                                                         ; ModelSim-Altera (Verilog) ;
+; Generate netlist for functional simulation only                                                   ; On                        ;
+; Truncate long hierarchy paths                                                                     ; Off                       ;
+; Map illegal HDL characters                                                                        ; Off                       ;
+; Flatten buses into individual nodes                                                               ; Off                       ;
+; Maintain hierarchy                                                                                ; Off                       ;
+; Bring out device-wide set/reset signals as ports                                                  ; Off                       ;
+; Enable glitch filtering                                                                           ; Off                       ;
+; Do not write top level VHDL entity                                                                ; Off                       ;
+; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                       ;
+; Architecture name in VHDL output netlist                                                          ; structure                 ;
+; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                       ;
+; Generate third-party EDA tool command script for gate-level simulation                            ; Off                       ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                             ;
++------------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                        ;
++------------------------------------------------------------------------------------------------------------------------+
+; C:/Users/zxw6805/Desktop/zxw_EEEE_220_F13/zxw_mux2to1.v/zxw_mux2to1verilog2/simulation/modelsim/zxw_mux2to1_verilog.vo ;
++------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 32-bit EDA Netlist Writer
+    Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+    Info: Processing started: Fri Sep 13 18:33:32 2013
+Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off zxw_mux2to1_verilog -c zxw_mux2to1_verilog
+Info (204019): Generated file zxw_mux2to1_verilog.vo in folder "C:/Users/zxw6805/Desktop/zxw_EEEE_220_F13/zxw_mux2to1.v/zxw_mux2to1verilog2/simulation/modelsim/" for EDA simulation tool
+Info: Quartus II 32-bit EDA Netlist Writer was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 314 megabytes
+    Info: Processing ended: Fri Sep 13 18:33:33 2013
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

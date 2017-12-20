@@ -1,0 +1,8 @@
+|zxw_mux2to1
+x1 => f.IN0
+x2 => f.IN0
+s => f.IN1
+s => f.IN1
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+

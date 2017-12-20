@@ -1,0 +1,30 @@
+# do zxw_mux2to1.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module zxw_mux2to1
+# 
+# Top level modules:
+# 	zxw_mux2to1
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module zxw_mux2to1_vlg_sample_tst
+# -- Compiling module zxw_mux2to1_vlg_check_tst
+# -- Compiling module zxw_mux2to1_vlg_vec_tst
+# 
+# Top level modules:
+# 	zxw_mux2to1_vlg_vec_tst
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.zxw_mux2to1_vlg_vec_tst 
+# Loading work.zxw_mux2to1_vlg_vec_tst
+# Loading work.zxw_mux2to1
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading work.zxw_mux2to1_vlg_sample_tst
+# Loading work.zxw_mux2to1_vlg_check_tst
+# ERROR! Vector Mismatch for output port f :: @time = 250000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port f :: @time = 625000.000 ps
+#      Expected value = 1
+#      Real value = 0
+#           2 mismatched vectors : Simulation failed !
+# ** Note: $finish    : zxw_mux2to1.vt(154)
+#    Time: 1 us  Iteration: 0  Instance: /zxw_mux2to1_vlg_vec_tst/tb_out

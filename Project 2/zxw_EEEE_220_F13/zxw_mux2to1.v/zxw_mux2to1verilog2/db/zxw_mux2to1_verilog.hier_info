@@ -1,0 +1,8 @@
+|zxw_mux2to1_verilog
+x1 => g.IN0
+x2 => h.IN0
+s => h.IN1
+s => g.IN1
+f <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

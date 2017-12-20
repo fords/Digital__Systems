@@ -1,0 +1,43 @@
+# do zeyarW_lab1.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module zeyarW_lab1
+# 
+# Top level modules:
+# 	zeyarW_lab1
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module zeyarW_lab1_vlg_sample_tst
+# -- Compiling module zeyarW_lab1_vlg_check_tst
+# -- Compiling module zeyarW_lab1_vlg_vec_tst
+# 
+# Top level modules:
+# 	zeyarW_lab1_vlg_vec_tst
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.zeyarW_lab1_vlg_vec_tst 
+# Loading work.zeyarW_lab1_vlg_vec_tst
+# Loading work.zeyarW_lab1
+# Loading cycloneive_ver.cycloneive_pll
+# Loading cycloneive_ver.cycloneive_m_cntr
+# Loading cycloneive_ver.cycloneive_n_cntr
+# Loading cycloneive_ver.cycloneive_scale_cntr
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading work.zeyarW_lab1_vlg_sample_tst
+# Loading work.zeyarW_lab1_vlg_check_tst
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from zeyarW_lab1_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from zeyarW_lab1_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /zeyarW_lab1_vlg_vec_tst File: zeyarW_lab1.vt
+#  Note : Cycloneive PLL locked to incoming clock
+# Time: 92392.000 ps  Instance: zeyarW_lab1_vlg_vec_tst.i1.\inst1|altpll_component|auto_generated|pll1 
+# Simulation passed !
+# ** Note: $finish    : zeyarW_lab1.vt(207)
+#    Time: 10 us  Iteration: 0  Instance: /zeyarW_lab1_vlg_vec_tst/tb_out

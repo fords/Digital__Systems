@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Sep 09 10:41:02 2013
+Quartus II 32-bit Version : 13.0.0 Build 156 04/24/2013 SJ Web Edition
+Revision Name : zeyarW_lab1
+Top-level Entity Name : zeyarW_lab1
+Family : Cyclone IV E
+Total logic elements : 31
+    Total combinational functions : 31
+    Dedicated logic registers : 27
+Total registers : 27
+Total pins : 6
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

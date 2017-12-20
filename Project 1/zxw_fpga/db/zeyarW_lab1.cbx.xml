@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="zeyarW_lab1">
+		<CBX_INST_ENTRY INSTANCE_NAME="|zeyarW_lab1|counter_bus_mux:inst2|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_arc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|zeyarW_lab1|outputfile:inst1|altpll:altpll_component" CBX_FILE_NAME="outputfile_altpll.v"/>
+	</PROJECT>
+</LOG_ROOT>
