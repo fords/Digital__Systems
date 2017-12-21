@@ -1,0 +1,19 @@
+LIBRARY ieee ;
+USE ieee.std_logic_1164.all ;
+ 
+ -- wr-dm and rd-dm are determined
+ENTITY zxw_adl_vhdl IS
+	PORT(
+	 WR_DM,OE_RD : IN STD_LOGIC ;
+	MAH:  IN	STD_LOGIC_VECTOR(7 DOWNTO 0);
+	IE_SW, IE_PB, LD_DHR, LD_DLR: OUT STD_LOGIC ) ;
+END zxw_adl_vhdl ;
+
+
+ARCHITECTURE LogicFunc OF zxw_adl_vhdl IS
+BEGIN
+	IE_SW <= OE_RD AND (((MAH(7) AND MAH(6) AND MAH(5) AND MAH(4) AND MAH(3) AND MAH(2) AND MAH(0)) AND (NOT MAH(1)) ));
+	IE_PB <= OE_RD AND (((MAH(7) AND MAH(6) AND MAH(5) AND MAH(4) AND MAH(3) AND MAH(2)) AND (NOT MAH(1) AND NOT MAH(0))));
+	LD_DLR <= WR_DM AND ((MAH(7) AND MAH(6) AND MAH(5) AND MAH(4) AND MAH(3) AND MAH(2) AND MAH(1)) AND (NOT MAH(0)));
+	LD_DHR <= WR_DM AND (MAH(7) AND MAH(6) AND MAH(5) AND MAH(4) AND MAH(3) AND MAH(2) AND MAH(1) AND MAH(0));
+END LogicFunc ;
